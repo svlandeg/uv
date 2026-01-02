@@ -360,7 +360,7 @@ bytecode compilation in [Docker builds](../guides/integration/docker.md) to impr
 (at the cost of increased build times).
 
 As bytecode compilation suppresses various warnings issued by the Python interpreter, in rare cases
-you may seen `SyntaxWarning` or `DeprecationWarning` messages when running Python code that was
+you may see `SyntaxWarning` or `DeprecationWarning` messages when running Python code that was
 installed with uv that do not appear when using `pip`. These are valid warnings, but are typically
 hidden by the bytecode compilation process, and can either be ignored, fixed upstream, or similarly
 suppressed by enabling bytecode compilation in uv.
