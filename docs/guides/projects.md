@@ -221,7 +221,7 @@ print("hello world")
 $ uv run example.py
 ```
 
-Alternatively, you can use `uv sync` to manually update the environment then activate it before
+Alternatively, you can use `uv sync` to manually update the environment, then activate it before
 executing a command:
 
 === "macOS and Linux"
